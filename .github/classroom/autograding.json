@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Starter Code Tests",
+      "setup": "sudo apt install software-properties-common -y && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install python3.10 && curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10 && python3.10 -m pip install pytest",
+      "run": "python3.10 -m pytest -vv",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
